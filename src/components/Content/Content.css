@@ -1,0 +1,142 @@
+.blog{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    row-gap: 35px;
+    margin: 70px auto;
+    flex-direction: column;
+}
+.blog span{
+    font-size: 16px;
+    letter-spacing: 10%;
+    color: #666666;
+    font-weight: 800;
+}
+.blog h1{
+    font-size: 48px;
+    font-weight: 800;
+    color: #333333;
+}
+.blog p{
+    font-size: 16px;
+    color: #666666;
+    font-weight: 500;
+    width: 900px;
+}
+.blog *{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.stories_box{
+    width: 100%;
+    background-color: #7C4EE4;
+    padding: 120px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 40px;
+}
+.stories_box h1{
+    margin: 0;
+    margin-bottom: 10px;
+    font-size: 52px;
+    font-weight: 800;
+    color: white;
+    width: 900px;
+    text-align: center;
+}
+.stories_box .input_box{
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 10px;
+}
+.stories_box .input_box input{
+    width: 70%;
+    height: 100%;
+    border: none;
+    color: #5A7184;
+    padding: 18px 25px;
+    background-color: white;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 10px;
+}
+
+.stories_box .input_box input::placeholder{
+    color: #5A7184;
+}
+
+.stories_box .input_box button{
+    width: 30%;
+    height: 100%;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    padding: 18px 30px;
+    border-radius: 10px;
+    font-weight: 800;
+    cursor: pointer;
+}
+.stories_box span{
+    font-size: 16px;
+    font-weight: 500;
+    color: #BBBBBB;
+    width: 600px;
+    text-align: center;
+}
+
+.contacts{
+    width: 90%;
+    margin: 50px  auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    flex-direction: column;
+    row-gap: 40px;
+    border-bottom: 2px solid #7C4EE4;
+}
+.contacts .contacts_nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 55px;
+}
+.contacts .contacts_nav a{
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #150E06;
+}
+.contacts .social{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 15px;
+}
+.contacts .social div{
+    width: 40px;
+    height: 40px;
+    background-color: #7C4EE4;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.copy{
+    font-size: 16px;
+    font-weight: 500;
+    color: #150E06;
+    margin: 50px auto;
+    display: block;
+    text-align: center;
+}

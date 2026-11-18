@@ -1,0 +1,9 @@
+.card_box{
+  margin: 100px auto;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
